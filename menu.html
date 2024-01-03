@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakanBijak | Menu</title>
+    <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="flex items-center absolute top-0 bg-transparent w-full left-0 z-10" id="header">
+        <div class="container">
+            <div class="flex justify-between relative">
+                <div class="px-4 flex items-center gap-2 lg:gap-4">
+                    <h2 class="py-6 px-0 text-lg font-semibold lg:text-xl">Makan<span class="text-main">Bijak</span>
+                    </h2>
+                    <div class="pt-1">
+                        <input id="input-box"
+                            class="font-serif placeholder:text-slate-500 rounded-full py-[3px] lg:py-2   shadow-sm pl-[2px] w-[140px] lg:w-[250px] outline-none border"
+                            type="search" placeholder="Cari...">
+                        <div class="absolute result-box mt-4 overflow-y-scroll max-h-32 bg-white lg:bg-none">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flex items-center px-4">
+                    <button class="absolute block right-4 lg:hidden" id="button">
+                        <span class="btn duration-300 ease-in-out origin-top-left"></span>
+                        <span class="btn duration-300 ease-in-out "></span>
+                        <span class="btn duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="bg-main absolute max-w-[250px] py-5 right-4 rounded-lg top-full hidden lg:block lg:max-w-full w-full lg:bg-transparent lg:rounded-none lg:static">
+                        <ul class="block lg:flex">
+
+
+
+
+                            <li class="group">
+                                <a href="/index.html"
+                                    class="text-white lg:text-slate-800 py-2  flex mx-8 group-hover:text-main">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/desert.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Desert
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/minuman.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Minuman</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/diets.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Diets</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/sarapan.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Sarapan</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <section class="pt-20 pb-32">
+        <div class="container">
+
+            <div class="w-full h-[200px] lg:h-[300px] bg-cover bg-center rounded-lg overflow-hidden"
+                style="background-image: url(img/assortment-with-different-meals-wooden-table.jpg);">
+                <div class="bg-slate-500 w-full h-full rounded-lg bg-opacity-45 flex">
+                    <div class="m-auto text-center text-white">
+                        <h1 class=" text-white lg:text-4xl text-xl font-semibold">Makan<span
+                                class="text-main">Bijak</span></h1>
+                        <p class="text-base lg:font-semibold">Bijak dalam setiap resep, Kesehatan disetiap sajian</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pt-16 pb-16">
+                <div class="text-center flex">
+                    <div class="px-4 mx-auto bg-opacity-50 py-[10px] relative">
+                        <div>
+                            <h1 class="font-semibold text-lg lg:text-xl">All Recipe</h1>
+                            <p class=" max-w-xl">Resep sehat dan lezat, ide makan
+                                siang yang mudah, camilan, sarapan,
+                                sup, dan banyak lagi.</p>
+                        </div>
+                        <div class="w-[3px] h-full bg-main absolute -left-[2px] -top-[2px]"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- resep sarapan -->
+            <div class="flex flex-wrap">
+                <div class=" w-full lg:w-1/3 lg:p-2">
+                    <div class="w-full h-[180px] bg-cover bg-center rounded-md overflow-hidden mt-4"
+                        style="background-image: url(img/corn\ soup.jpg);">
+                        <div class="bg-main w-full h-full bg-opacity-45 flex">
+                            <a href="/menu/sarapan.html"
+                                class="m-auto px-2 py-[6px] text-white bg-main rounded-sm font-bold tracking-wide hover:bg-transparent hover:border hover:border-main hover:text-main transition duration-300 ease-in-out">SARAPAN</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- resep minuman -->
+                <div class="lg:w-1/3 lg:p-2 w-full">
+                    <div class="w-full h-[180px] bg-cover bg-center rounded-md mt-4 overflow-hidden"
+                        style="background-image: url(img/assortment-milkshake-glasses-with-fruits-chocolate.jpg);">
+                        <div class="bg-main w-full h-full bg-opacity-45 flex">
+                            <a href="/menu/minuman.html"
+                                class="m-auto px-2 py-[6px] text-white bg-main rounded-sm font-bold tracking-wide hover:bg-transparent hover:border hover:border-main hover:text-main transition duration-300 ease-in-out">MINUMAN</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- resep desert -->
+                <div class="lg:w-1/3 lg:p-2 w-full">
+                    <div class="w-full h-[180px] bg-cover bg-center rounded-md mt-4 overflow-hidden"
+                        style="background-image: url(img/woman-eats-marshmallow-cake-with-strawberry.jpg);">
+                        <div class="bg-main w-full h-full bg-opacity-45 flex">
+                            <a href="/menu/desert.html"
+                                class="m-auto px-2 py-[6px] text-white bg-main rounded-sm font-bold tracking-wide hover:bg-transparent hover:border hover:border-main hover:text-main transition duration-300 ease-in-out">DESERT</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full h-[180px] lg:h-[300px]  bg-cover bg-center rounded-md mt-4 overflow-hidden"
+                    style="background-image: url(img/flat-lay-plate-with-keto-diet-food-bowl-with-sprouts\(1\).jpg);">
+
+                    <div class="w-full h-full bg-main bg-opacity-45 flex ">
+                        <a href="/menu/diets.html"
+                            class="m-auto px-2 lg:px-[20px] lg:py-[16px] py-[6px] text-white bg-main rounded-sm font-bold tracking-wide hover:bg-transparent hover:border hover:border-main hover:text-main transition duration-300 ease-in-out">DIETS</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <footer class="relative bg-blueGray-200 pt-8 pb-6 bg-secondary text-white ">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap text-left lg:text-left">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl fonat-semibold text-white-500 font-bold uppercase">Makan<span
+                            class="">Bijak</span></h4>
+                    <h5 class="text-lg mt-0 mb-2 text-white-600" id="tentang">
+                        Misi kami adalah membantu masyarakat menuju kehidupan yang lebih sehat dan bugar,
+                        Menghadirkan informasi nutrisi yang akurat dan mudah dimengerti untuk membantu pengguna membuat
+                        keputusan makanan yang informasional dan bijak.
+                    </h5>
+                    <div class="mt-6 lg:mb-0 mb-6">
+                        <button
+                            class="bg-Dark-100 text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+
+                        <button
+                            class="bg-Dark-100 text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-facebook-square"></i>
+                        </button>
+
+                        <button
+                            class="bg-Dark-100 text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-github"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-white-500 text-sm font-semibold mb-2">Kategori</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/desert.html">Desert</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/diets.html">Diets</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/minuman.html">Minuman Sehat</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/sarapan.html">Sarapan</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full lg:w-4/12 px-4">
+                            <span class="block uppercase text-white-500 text-sm font-semibold mb-2">Lainya</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/privacy?ref=njs-profile">Contact</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/contact-us?ref=njs-profile">Social media</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-blueGray-300">
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-white-500 py-1">
+                        Copyright © <span id="get-current-year">2023</span><a
+                            href="https://www.creative-tim.com/product/notus-js"
+                            class="text-white-500 hover:text-gray-800" target="_blank"> MAKANBIJAK
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script>
+
+let availableKeywords = [
+        'Brokoli ayam lada hitam',
+        'Cream soup',
+        'Chicken steak',
+        'Salad sayur telur',
+        'Sayur bayam kecambah',
+        'Lemon squash',
+        'Teh hijau mint',
+        'Pancake mangga',
+        'Pudding custard',
+        'Pudding cokelat regal',
+        'Salad buah',
+        'Sereal yoghurt desert',
+        'Pancake pisang',
+        'Pinky smoothies',
+        'Waffles',
+        'Mango sticky rice',
+        'Triple chocolate dessert',
+        'Iced lemonade',
+        'Infused water',
+        'Es semangka susu',
+        'Es kuwut',
+        'Es kopi float',
+        'Es timun jeruk nipis',
+        'Oreo smoothies',
+        'Mango lessi',
+        'Strawberry milk',
+        'Teh rosela jahe',
+        'Avocado toast dengan telur dan sosis',
+        'Cheesy egg sandwich',
+        'Nasi goreng kacang polong',
+        'Sop bihun',
+        'Bubur sumsum',
+        'Roti panggang isi',
+        'Nasi tim daging',
+        'Telur dadar keju saus tomat',
+        'tumis sosis sayuran',
+        'Terong teriyaki',
+        'Terong bakar tomat',
+        'Terong panggang',
+        'Tumis tahu jamur',
+        'Pepes tahu keju',
+        'Mapo tofu',
+
+
+    ];
+
+    const keywordToUrlMap = {
+        'Brokoli ayam lada hitam': '/saran menu/brokoli_ayam.html',  // Ganti dengan nama file atau URL yang sesuai
+        'Cream soup': '/menu/sarapan.html',
+        'Chicken steak': '/saran menu/chicken_steak.html',
+        'Salad sayur telur': '/menu/sarapan.html',
+        'Lemon squash': '/menu/minuman.html',
+        'Teh hijau mint': '/menu/minuman.html',
+        'Sayur bayam kecambah': '/menu/diets.html',
+        'Pancake mangga': '/menu/desert.html',
+        'Pudding custard': '/saran menu/puding_custard.html',
+        'Pudding cokelat regal': '/menu/desert.html',
+        'Salad buah': '/saran menu/salad_buah.html',
+        'Sereal yoghurt desert': '/menu/desert.html',
+        'Pinky smoothies': '/menu/desert.html',
+        'Waffles': '/menu/desert.html',
+        'Mango sticky rice': '/menu/desert.html',
+        'Triple chocolate dessert': '/menu/desert.html',
+        'Iced lemonade': '/menu/minuman.html',
+        'Infused water': '/menu/minuman.html',
+        'Es semangka susu': '/menu/minuman.html',
+        'Es kuwut': '/menu/minuman.html',
+        'Es kopi float': '/menu/minuman.html',
+        'Es timun jeruk nipis': '/saran menu/es_timun_nipis.html',
+        'Oreo smoothies': '/menu/minuman.html',
+        'Mango lessi': '/saran menu/mango_lessi.html',
+        'Strawberry milk': '/menu/minuman.html',
+        'Teh rosela jahe': '/menu/minuman.html',
+        'Avocado toast dengan telur dan sosis': '/saran menu/egg_avocado.html',
+        'Cheesy egg sandwich': '/saran menu/cheesy_egg_sandwich.html',
+        'Nasi goreng kacang polong': '/menu/sarapan.html',
+        'Sop bihun': '/menu/sarapan.html',
+        'Bubur sumsum': '/menu/sarapan.html',
+        'Roti panggang isi': '/menu/sarapan.html',
+        'Nasi tim daging': '/menu/sarapan.html',
+        'Telur dadar keju saus tomat': '/saran menu/telur_dadar_keju.html',
+        'tumis sosis sayuran': '/menu/sarapan.html',
+        'Terong teriyaki': '/saran menu/terong_teriyaki.html',
+        'Terong bakar tomat': '/saran menu/terong_bakar_tomat.html',
+        'Terong panggang': '/saran menu/terong_panggang.html',
+        'Terong bakar tomat': '/saran menu/terong_bakar_tomat.html',
+        'Tumis tahu jamur': '/saran menu/tumis_tahu_jamur.html',
+        'Pepes tahu keju': '/saran menu/pepes_tahu_keju.html',
+        'Mapo tofu': '/saran menu/mapo_tofu.html',
+
+        // Ganti dengan nama file atau URL yang sesuai
+        // Tambahkan pemetaan lain sesuai kebutuhan
+    };
+
+    const resultBox = document.querySelector(".result-box");
+    const inputBox = document.querySelector("#input-box");
+
+    inputBox.oninput = function () {
+        let result = [];
+        let input = inputBox.value;
+
+        if (input.length) {
+            result = availableKeywords.filter((keyword) => {
+                return keyword.toLowerCase().includes(input.toLowerCase());
+            });
+        }
+
+        display(result);
+
+        if (!result.length) {
+            resultBox.innerHTML = '';
+        }
+    }
+
+    function display(result) {
+        const content = result.map((list) =>
+            `<li onclick="selectInput(this)" class="cursor-pointer py-2 px-4 rounded hover:bg-aqua">${list}</li>`
+        );
+
+        resultBox.innerHTML = "<ul>" + content.join('') + "</ul>";
+    }
+
+    function selectInput(list) {
+        const selectedKeyword = list.innerHTML;
+
+        // Periksa apakah kata kunci ada dalam pemetaan
+        if (keywordToUrlMap[selectedKeyword]) {
+            // Jika ada, arahkan pengguna ke URL yang sesuai
+            window.location.href = keywordToUrlMap[selectedKeyword];
+        } else {
+            // Jika tidak, arahkan ke halaman pencarian atau tindakan lainnya
+            window.location.href = "search.html?q=" + encodeURIComponent(selectedKeyword);
+        }
+    }
+
+
+    window.onscroll = function () {
+        const header = document.querySelector('header');
+        const fixedNav = header.offsetTop;
+
+        if (window.pageYOffset > fixedNav) {
+            header.classList.add('navbar-fixed')
+        } else {
+            header.classList.remove()
+        }
+    }
+
+    const button = document.querySelector('#button');
+    const navMenu = document.querySelector('#nav-menu');
+
+    button.addEventListener('click', function () {
+        button.classList.toggle('btn_line');
+        navMenu.classList.toggle('hidden');
+    })
+
+</script>
+
+</html>

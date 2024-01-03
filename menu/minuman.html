@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakanBijak | Minuman</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="flex items-center absolute top-0 bg-transparent w-full left-0 z-10" id="header">
+        <div class="container">
+            <div class="flex justify-between relative">
+                <div class="px-4 flex items-center gap-2 lg:gap-4">
+                    <h2 class="py-6 px-0 text-lg font-semibold lg:text-xl">Makan<span class="text-main">Bijak</span>
+                    </h2>
+                    <div class="pt-1">
+                        <input id="input-box"
+                            class="font-serif placeholder:text-slate-500 rounded-full py-[3px] lg:py-2   shadow-sm pl-[2px] w-[140px] lg:w-[250px] outline-none border"
+                            type="search" placeholder="Cari...">
+                        <div class="absolute result-box mt-4 overflow-y-scroll max-h-32 bg-white lg:bg-none">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flex items-center px-4">
+                    <button class="absolute block right-4 lg:hidden" id="button">
+                        <span class="btn duration-300 ease-in-out origin-top-left"></span>
+                        <span class="btn duration-300 ease-in-out "></span>
+                        <span class="btn duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="bg-main absolute max-w-[250px] py-5 right-4 rounded-lg top-full hidden lg:block lg:max-w-full w-full lg:bg-transparent lg:rounded-none lg:static">
+                        <ul class="block lg:flex">
+
+
+
+
+                            <li class="group">
+                                <a href="/index.html"
+                                    class="text-white lg:text-slate-800 py-2  flex mx-8 group-hover:text-main">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/desert.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Desert
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/minuman.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Minuman</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/diets.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Diets</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/sarapan.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Sarapan</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <!-- Cheesy Egg Sandwich -->
+    <div class="container">
+
+        <h1 class="text-center pt-32 mb-8 text-xl font-bold lg:text-3xl text-main">10 Resep Minuman
+            Sehat Buat
+            Kamu!</h1>
+        <div class="menu-item mb-8 max-w-xl pt-10 lg:pt-16 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Iced Lemonade</h2>
+            <img src="/img/minuman/iced lemon.jpg" alt="Cheesy Egg Sandwich" class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Nikmati kesegaran Iced Lemonade yang segar dan enak, cocok untuk menemani hari-hari panas.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <p class="font-semibold mr-1">5.0</p>
+                <p>(3)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Farida</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>2 liter air putih matang</li>
+                <li>400 gram gula pasir</li>
+                <li>400 ml perasan jeruk lemon</li>
+                <li>Es batu secukupnya</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Campurkan gula dan segelas air ke dalam panci, masak dan didihkan gula sampai larut. Matikan kompor
+                    dan biarkan hingga mendingin.</li>
+                <li>Tuang perasan lemon, gula pasir, serta air putih. Aduk seluruh bahan hingga merata.</li>
+                <li>Campurkan es batu sesuai selera.</li>
+                <li>Iced lemonade siap untuk dinikmati bersama teman.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+        <!-- perbaiki bentar -->
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 150 Kcal</li>
+            <li>Karbohidrat: ~ 40g</li>
+            <li>Gula: ~ 35g</li>
+            <li>Vitamin C: ~ 50mg</li>
+        </ul>
+
+        <!-- resep 2 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Infused Water</h2>
+            <img src="/img/minuman/infused water.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Infused Water adalah minuman segar dengan rasa buah-buahan dan aroma mint yang menyehatkan.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <p class="font-semibold mr-1">5.0</p>
+                <p>(3)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Farida</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>1 bungkus agar-agar</li>
+                <li>Apel secukupnya</li>
+                <li>Mint secukupnya</li>
+                <li>Lemon secukupnya</li>
+                <li>Strawberry secukupnya</li>
+                <li>Mentimun secukupnya</li>
+                <li>Air 1 liter</li>
+                <li>Es batu (optional)</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Cuci bersih seluruh buah-buahan serta daun mint di air bersih yang mengalir.</li>
+                <li>Potong-potong buah sesuai selera. Masukkan ke dalam wadah berupa botol atau gelas besar.</li>
+                <li>Tuang air yang sudah kamu siapkan.</li>
+                <li>Tutup wadah dan simpan infused water selama 3-4 jam. Setelah itu, infused water bisa dinikmati. Kamu
+                    juga bisa simpan di kulkas hingga 3 hari.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Infused Water tidak mengandung kalori, lemak, karbohidrat, atau gula tambahan.</li>
+            <li>Memberikan rasa segar dan aroma alami dari buah-buahan.</li>
+        </ul>
+
+        <!-- resep 3 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Es Semangka Susu</h2>
+            <img src="/img/minuman/es semagka susu.png" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Es Semangka Susu adalah minuman segar dengan kombinasi semangka, susu, dan sirup cocopandan yang
+                menyegarkan.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(5)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>¼ buah semangka, potong dadu</li>
+                <li>600 ml susu cair full cream</li>
+                <li>150 cc sirup cocopandan</li>
+                <li>Es batu secukupnya</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Campurkan semangka, susu full cream, dan sirup cocopandan ke dalam gelas.</li>
+                <li>Tambahkan air (optional).</li>
+                <li>Masukkan es batu sesuai selera.</li>
+                <li>Es semangka susu bisa langsung kamu nikmati.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Semangka mengandung vitamin C dan air, memberikan hidrasi dan nutrisi.</li>
+            <li>Susu menyediakan kalsium dan protein.</li>
+            <li>Sirup cocopandan menambahkan rasa manis dan aroma khas.</li>
+            <li>Es batu memberikan sensasi segar dan dingin.</li>
+        </ul>
+
+        <!-- resep 4 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Es Kuwut</h2>
+            <img src="/img/minuman/es kuwut.jpg" alt="Cheesy Egg Sandwich" class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Es Kuwut adalah minuman segar khas Bali dengan campuran kelapa muda, melon, selasih, dan air kelapa.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <p class="font-semibold mr-1">5.0</p>
+                <p>(3)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Atika</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>1 mangkuk kelapa muda serut</li>
+                <li>Air kelapa muda secukupnya</li>
+                <li>Buah melon secukupnya, kerok bulat</li>
+                <li>2 sdm selasih, rendam air hangat</li>
+                <li>1 buah jeruk nipis yang sudah diperas</li>
+                <li>Larutan gula pasir secukupnya</li>
+                <li>Es batu secukupnya</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Masukkan kelapa muda, melon, serta selasih ke dalam gelas. Kemudian, masukkan es batu di atasnya.
+                </li>
+                <li>Campurkan air kelapa dengan larutan gula pasir. Aduk hingga merata dan tuang ke gelas berisi kelapa
+                    muda, melon, dan selasih.</li>
+                <li>Tambahkan perasan jeruk nipis.</li>
+                <li>Es Kuwut khas Bali siap kamu nikmati.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kelapa muda mengandung elektrolit dan mineral.</li>
+            <li>Melon memberikan vitamin C dan antioksidan.</li>
+            <li>Selasih dapat memberikan serat dan tekstur unik.</li>
+            <li>Jeruk nipis menyegarkan dan memberikan rasa asam.</li>
+        </ul>
+
+        <!-- resep 5 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Es Kopi Float</h2>
+            <img src="/img/minuman/es kopi float.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Es Kopi Float adalah minuman segar yang menyatukan kelezatan kopi espresso dengan kelembutan es krim
+                vanilla.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>200 ml susu cair</li>
+                <li>100 ml kopi espresso</li>
+                <li>100 ml gula aren cair</li>
+                <li>2 scoop es krim vanilla</li>
+                <li>Es batu secukupnya</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Tambahkan es batu ke dalam gelas yang sudah disiapkan.</li>
+                <li>Masukkan gula aren cair ke dalam gelas berisi es batu.</li>
+                <li>Tuang kopi espresso secara perlahan.</li>
+                <li>Tambahkan susu cair ke dalam gelas sampai penuh.</li>
+                <li>Ambil es krim, lalu letakkan di bagian atas kopi.</li>
+                <li>Es Kopi Float siap disajikan.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kopi espresso mengandung kafein yang dapat meningkatkan energi.</li>
+            <li>Susu cair memberikan kalsium dan vitamin D.</li>
+            <li>Es krim vanilla dapat menyediakan lemak dan rasa manis.</li>
+            <li>Gula aren cair memberikan rasa manis alami.</li>
+        </ul>
+
+        <!-- resep 6 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Es Timun Jeruk Nipis</h2>
+            <img src="/img/minuman/es jeruk nipis.png" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Es Timun Jeruk Nipis adalah minuman segar yang menyegarkan dengan kombinasi timun, melon, dan jeruk
+                nipis.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <p class="font-semibold mr-1">5.0</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>3 buah ketimun Jepang</li>
+                <li>1/2 buah melon</li>
+                <li>200 gram gula pasir</li>
+                <li>200 ml air</li>
+                <li>Air perasan 3 buah jeruk nipis</li>
+                <li>2 sendok teh kulit jeruk nipis</li>
+                <li>5 lembar daun mint</li>
+                <li>2 buah jeruk nipis</li>
+                <li>Es batu secukupnya</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Larutkan gula pasir dengan air yang sudah dipanaskan.</li>
+                <li>Setelah larut dan didinginkan, tambahkan air perasan jeruk nipis.</li>
+                <li>Keruk timun dan melon yang telah dikupas dan dibuang bijinya.</li>
+                <li>Masukkan kerukan timun dan melon ke dalam larutan gula.</li>
+                <li>Diamkan selama satu jam.</li>
+                <li>Tambahkan irisan jeruk nipis, daun mint yang disobek, dan es batu sesuai selera.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Ketimun mengandung banyak air dan serat.</li>
+            <li>Melon memberikan vitamin C dan A.</li>
+            <li>Jeruk nipis kaya akan vitamin C.</li>
+            <li>Daun mint dapat memberikan kesegaran dan aroma.</li>
+        </ul>
+
+        <!-- resep 7 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Oreo smooties</h2>
+            <img src="/img/minuman/oreo smooties.png" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Oreo Smoothies adalah minuman lezat yang menggabungkan susu coklat, biskuit oreo, es krim, dan whipped
+                cream.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>2 gelas susu cair rasa coklat</li>
+                <li>6 buah biskuit oreo</li>
+                <li>1 cup es krim coklat</li>
+                <li>Whipped cream secukupnya</li>
+                <li>Es batu secukupnya</li>
+                <li>Choco chips</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Blender susu, 5 buah oreo, dan es krim.</li>
+                <li>Masukkan ke dalam gelas.</li>
+                <li>Tambahkan whipped cream sebagai topping.</li>
+                <li>Tambahkan juga taburan choco chips dan sisa biskuit oreo sebagai garnish.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Susu cair menyediakan kalsium dan vitamin D.</li>
+            <li>Biskuit oreo memberikan rasa coklat dan kelezatan.</li>
+            <li>Es krim coklat memberikan kelembutan dan rasa manis.</li>
+            <li>Whipped cream menambah kelembutan dan kelezatan.</li>
+            <li>Choco chips memberikan sentuhan renyah dan manis.</li>
+        </ul>
+
+        <!-- resep 8 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Mango Lessi</h2>
+            <img src="/img/minuman/maggo lessi.png" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Mango Lessi adalah minuman segar yang terbuat dari mangga harum manis, yoghurt plain cair, yoghurt plain
+                kental, dan jeruk nipis.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>2 buah mangga harum manis</li>
+                <li>200 ml yoghurt plain cair</li>
+                <li>150 ml yoghurt plain kental</li>
+                <li>1 buah jeruk nipis</li>
+                <li>Es batu</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Potong mangga menjadi beberapa potongan kecil.</li>
+                <li>Blender potongan mangga dengan campuran yoghurt cair, yoghurt kental, dan air perasan jeruk nipis.
+                </li>
+                <li>Tuangkan ke dalam gelas.</li>
+                <li>Tambahkan es batu sesuai selera.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Mangga mengandung vitamin C, vitamin A, dan serat.</li>
+            <li>Yoghurt memberikan nutrisi dari susu fermentasi.</li>
+            <li>Jeruk nipis menyediakan vitamin C dan memberikan rasa segar.</li>
+        </ul>
+
+        <!-- resep 9 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Strawberi Milk</h2>
+            <img src="/img/minuman/stawberi milk.png" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Strawberry Milk adalah minuman lezat yang terbuat dari strawberry segar, susu cair, dan gula pasir.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>8 buah strawberry segar</li>
+                <li>500 ml susu cair</li>
+                <li>5 sdt gula pasir</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Potong buah strawberry menjadi beberapa potongan kecil, lalu blender.</li>
+                <li>Masukkan gula dan aduk hingga merata.</li>
+                <li>Masukkan ke dalam kulkas selama 1-2 jam, pastikan wadah dalam keadaan tertutup.</li>
+                <li>Setelah didinginkan, tuangkan ke dalam gelas.</li>
+                <li>Tambahkan susu cair dan es batu.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Strawberry mengandung vitamin C, serat, dan antioksidan.</li>
+            <li>Susu memberikan kalsium dan protein.</li>
+            <li>Gula memberikan energi, namun konsumsilah dengan bijak.</li>
+        </ul>
+
+        <!-- resep 10 -->
+        <div class="menu-item mb-8 max-w-xl pt-10  ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Teh Rosela Jahe</h2>
+            <img src="/img/minuman/teh roale jahe.png" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Teh Rosela Jahe adalah minuman herbal yang menyegarkan dengan kombinasi bunga rosella, jahe, kayu manis,
+                dan madu.
+
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>5 keping bunga rosella</li>
+                <li>3 cm jahe</li>
+                <li>1 buah kayu manis</li>
+                <li>1 sdm madu</li>
+                <li>400 ml air</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Bakar lalu kuas dan geprek jahe.</li>
+                <li>Rebus air hingga mendidih, masukkan bunga rosella kering, kayu manis, dan jahe.</li>
+                <li>Rebus kurang lebih 2-3 menit atau hingga warnanya merah.</li>
+                <li>Angkat dan saring ke dalam gelas atau cangkir. Tambahkan madu, aduk rata.</li>
+                <li>Teh rosella jahe siap disajikan hangat.</li>
+                <li>Jika suka dingin, boleh ditambahkan es batu secukupnya.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Bunga rosella kaya akan antioksidan dan vitamin C.</li>
+            <li>Jahe memiliki sifat anti-inflamasi dan dapat meningkatkan sistem kekebalan tubuh.</li>
+            <li>Madu memberikan rasa manis alami dan memiliki sifat antibakteri.</li>
+        </ul>
+
+
+    </div>
+
+    <!-- Tambahkan div dan struktur serupa untuk resep sarapan lainnya -->
+
+
+    <footer class="relative bg-blueGray-200 pt-8 pb-6 bg-secondary text-white ">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap text-left lg:text-left">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl fonat-semibold text-white-500 font-bold uppercase">Makan<span
+                            class="">Bijak</span></h4>
+                    <h5 class="text-lg mt-0 mb-2 text-white-600" id="tentang">
+                        Misi kami adalah membantu masyarakat menuju kehidupan yang lebih sehat dan bugar,
+                        Menghadirkan informasi nutrisi yang akurat dan mudah dimengerti untuk membantu pengguna membuat
+                        keputusan makanan yang informasional dan bijak.
+                    </h5>
+                    <div class="mt-6 lg:mb-0 mb-6">
+                        <button
+                            class="bg-Dark-100 text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+
+                        <button
+                            class="bg-Dark-100 text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-facebook-square"></i>
+                        </button>
+
+                        <button
+                            class="bg-Dark-100 text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-github"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-white-500 text-sm font-semibold mb-2">Kategori</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/desert.html">Desert</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/diets.html">Diets</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/minuman.html">Minuman Sehat</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/sarapan.html">Sarapan</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full lg:w-4/12 px-4">
+                            <span class="block uppercase text-white-500 text-sm font-semibold mb-2">Lainya</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/privacy?ref=njs-profile">Contact</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/contact-us?ref=njs-profile">Social media</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-blueGray-300">
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-white-500 py-1">
+                        Copyright © <span id="get-current-year">2023</span><a
+                            href="https://www.creative-tim.com/product/notus-js"
+                            class="text-white-500 hover:text-gray-800" target="_blank"> MAKANBIJAK
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+<script>
+
+let availableKeywords = [
+        'Brokoli ayam lada hitam',
+        'Cream soup',
+        'Chicken steak',
+        'Salad sayur telur',
+        'Sayur bayam kecambah',
+        'Lemon squash',
+        'Teh hijau mint',
+        'Pancake mangga',
+        'Pudding custard',
+        'Pudding cokelat regal',
+        'Salad buah',
+        'Sereal yoghurt desert',
+        'Pancake pisang',
+        'Pinky smoothies',
+        'Waffles',
+        'Mango sticky rice',
+        'Triple chocolate dessert',
+        'Iced lemonade',
+        'Infused water',
+        'Es semangka susu',
+        'Es kuwut',
+        'Es kopi float',
+        'Es timun jeruk nipis',
+        'Oreo smoothies',
+        'Mango lessi',
+        'Strawberry milk',
+        'Teh rosela jahe',
+        'Avocado toast dengan telur dan sosis',
+        'Cheesy egg sandwich',
+        'Nasi goreng kacang polong',
+        'Sop bihun',
+        'Bubur sumsum',
+        'Roti panggang isi',
+        'Nasi tim daging',
+        'Telur dadar keju saus tomat',
+        'tumis sosis sayuran',
+        'Terong teriyaki',
+        'Terong bakar tomat',
+        'Terong panggang',
+        'Tumis tahu jamur',
+        'Pepes tahu keju',
+        'Mapo tofu',
+
+
+    ];
+
+    const keywordToUrlMap = {
+        'Brokoli ayam lada hitam': '/saran menu/brokoli_ayam.html',  // Ganti dengan nama file atau URL yang sesuai
+        'Cream soup': '/menu/sarapan.html',
+        'Chicken steak': '/saran menu/chicken_steak.html',
+        'Salad sayur telur': '/menu/sarapan.html',
+        'Lemon squash': '/menu/minuman.html',
+        'Teh hijau mint': '/menu/minuman.html',
+        'Sayur bayam kecambah': '/menu/diets.html',
+        'Pancake mangga': '/menu/desert.html',
+        'Pudding custard': '/saran menu/puding_custard.html',
+        'Pudding cokelat regal': '/menu/desert.html',
+        'Salad buah': '/saran menu/salad_buah.html',
+        'Sereal yoghurt desert': '/menu/desert.html',
+        'Pinky smoothies': '/menu/desert.html',
+        'Waffles': '/menu/desert.html',
+        'Mango sticky rice': '/menu/desert.html',
+        'Triple chocolate dessert': '/menu/desert.html',
+        'Iced lemonade': '/menu/minuman.html',
+        'Infused water': '/menu/minuman.html',
+        'Es semangka susu': '/menu/minuman.html',
+        'Es kuwut': '/menu/minuman.html',
+        'Es kopi float': '/menu/minuman.html',
+        'Es timun jeruk nipis': '/saran menu/es_timun_nipis.html',
+        'Oreo smoothies': '/menu/minuman.html',
+        'Mango lessi': '/saran menu/mango_lessi.html',
+        'Strawberry milk': '/menu/minuman.html',
+        'Teh rosela jahe': '/menu/minuman.html',
+        'Avocado toast dengan telur dan sosis': '/saran menu/egg_avocado.html',
+        'Cheesy egg sandwich': '/saran menu/cheesy_egg_sandwich.html',
+        'Nasi goreng kacang polong': '/menu/sarapan.html',
+        'Sop bihun': '/menu/sarapan.html',
+        'Bubur sumsum': '/menu/sarapan.html',
+        'Roti panggang isi': '/menu/sarapan.html',
+        'Nasi tim daging': '/menu/sarapan.html',
+        'Telur dadar keju saus tomat': '/saran menu/telur_dadar_keju.html',
+        'tumis sosis sayuran': '/menu/sarapan.html',
+        'Terong teriyaki': '/saran menu/terong_teriyaki.html',
+        'Terong bakar tomat': '/saran menu/terong_bakar_tomat.html',
+        'Terong panggang': '/saran menu/terong_panggang.html',
+        'Terong bakar tomat': '/saran menu/terong_bakar_tomat.html',
+        'Tumis tahu jamur': '/saran menu/tumis_tahu_jamur.html',
+        'Pepes tahu keju': '/saran menu/pepes_tahu_keju.html',
+        'Mapo tofu': '/saran menu/mapo_tofu.html',
+
+        // Ganti dengan nama file atau URL yang sesuai
+        // Tambahkan pemetaan lain sesuai kebutuhan
+    };
+
+    const resultBox = document.querySelector(".result-box");
+    const inputBox = document.querySelector("#input-box");
+
+    inputBox.oninput = function () {
+        let result = [];
+        let input = inputBox.value;
+
+        if (input.length) {
+            result = availableKeywords.filter((keyword) => {
+                return keyword.toLowerCase().includes(input.toLowerCase());
+            });
+        }
+
+        display(result);
+
+        if (!result.length) {
+            resultBox.innerHTML = '';
+        }
+    }
+
+    function display(result) {
+        const content = result.map((list) =>
+            `<li onclick="selectInput(this)" class="cursor-pointer py-2 px-4 rounded hover:bg-aqua">${list}</li>`
+        );
+
+        resultBox.innerHTML = "<ul>" + content.join('') + "</ul>";
+    }
+
+    function selectInput(list) {
+        const selectedKeyword = list.innerHTML;
+
+        // Periksa apakah kata kunci ada dalam pemetaan
+        if (keywordToUrlMap[selectedKeyword]) {
+            // Jika ada, arahkan pengguna ke URL yang sesuai
+            window.location.href = keywordToUrlMap[selectedKeyword];
+        } else {
+            // Jika tidak, arahkan ke halaman pencarian atau tindakan lainnya
+            window.location.href = "search.html?q=" + encodeURIComponent(selectedKeyword);
+        }
+    }
+
+    window.onscroll = function () {
+        const header = document.querySelector('header');
+        const fixedNav = header.offsetTop;
+
+        if (window.pageYOffset > fixedNav) {
+            header.classList.add('navbar-fixed')
+        } else {
+            header.classList.remove()
+        }
+    }
+
+    const button = document.querySelector('#button');
+    const navMenu = document.querySelector('#nav-menu');
+
+    button.addEventListener('click', function () {
+        button.classList.toggle('btn_line');
+        navMenu.classList.toggle('hidden');
+    })
+
+</script>
+
+</html>

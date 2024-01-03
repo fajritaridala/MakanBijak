@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakanBijak | Desert</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <header class="flex items-center absolute top-0 bg-transparent w-full left-0 z-10" id="header">
+        <div class="container">
+            <div class="flex justify-between relative">
+                <div class="px-4 flex items-center gap-2 lg:gap-4">
+                    <h2 class="py-6 px-0 text-lg font-semibold lg:text-xl">Makan<span class="text-main">Bijak</span>
+                    </h2>
+                    <div class="pt-1">
+                        <input id="input-box"
+                            class="font-serif placeholder:text-slate-500 rounded-full py-[3px] lg:py-2   shadow-sm pl-[2px] w-[140px] lg:w-[250px] outline-none border"
+                            type="search" placeholder="Cari...">
+                        <div class="absolute result-box mt-4 overflow-y-scroll max-h-32 bg-white lg:bg-none">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flex items-center px-4">
+                    <button class="absolute block right-4 lg:hidden" id="button">
+                        <span class="btn duration-300 ease-in-out origin-top-left"></span>
+                        <span class="btn duration-300 ease-in-out "></span>
+                        <span class="btn duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="bg-main absolute max-w-[250px] py-5 right-4 rounded-lg top-full hidden lg:block lg:max-w-full w-full lg:bg-transparent lg:rounded-none lg:static">
+                        <ul class="block lg:flex">
+
+
+
+
+                            <li class="group">
+                                <a href="/index.html"
+                                    class="text-white lg:text-slate-800 py-2  flex mx-8 group-hover:text-main">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/desert.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Desert
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/minuman.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Minuman</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/diets.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Diets</a>
+                            </li>
+                            <li class="group">
+                                <a href="/menu/sarapan.html"
+                                    class="text-white lg:text-slate-800 py-2 flex mx-8 group-hover:text-main">Sarapan</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <!-- Cheesy Egg Sandwich -->
+    <div class="container">
+
+        <h1 class="text-center pt-32 mb-8 text-xl font-bold lg:text-3xl text-main">10 Menu Desert
+            Sehat Buat
+            Kamu!</h1>
+        <div class="menu-item mb-8 max-w-xl pt-10 lg:pt-16 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Pancake Mangga</h2>
+            <img src="/img/desert/pancake mangga.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Pancake Mangga adalah hidangan lezat yang terdiri dari kulit pancake, whipping cream, dan mangga segar.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <p class="font-semibold mr-1">5.0</p>
+                <p>(3)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Farida</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>125 gram tepung terigu</li>
+                <li>1 butir telur ayam</li>
+                <li>1/4 sdt garam</li>
+                <li>275 ml susu cair</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan Isian:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>1 buah Mangga Besar</li>
+                <li>Whipping cream</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Campurkan tepung terigu, garam, dan telur menjadi satu.</li>
+                <li>Tambahkan susu cair secara perlahan-lahan sambil diaduk.</li>
+                <li>Siapkan penggorengan, dadar adonan sampai habis.</li>
+                <li>Isi kulit pancake dengan whipping cream dan potongan mangga.</li>
+                <li>Lipat kulit pancake seperti amplop.</li>
+                <li>Simpan pancake yang sudah jadi di kulkas.</li>
+                <li>Pancake mangga lebih enak dinikmati saat dingin.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+        <!-- perbaiki bentar -->
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 200 Kcal</li>
+            <li>Protein: ~ 5g</li>
+            <li>Lemak: ~ 8g</li>
+            <li>Karbohidrat: ~ 25g</li>
+            <li>Gula: ~ 10g</li>
+            <li>Serat: ~ 2g</li>
+            <li>Kalsium: ~ 100mg</li>
+            <li>Fosfor: ~ 80mg</li>
+        </ul>
+
+        <!-- resep 2 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Pudding Custard</h2>
+            <img src="/img/desert/puding custard.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Pudding Custard adalah hidangan penutup lezat yang dihiasi dengan berbagai buah-buahan segar.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <p class="font-semibold mr-1">5.0</p>
+                <p>(3)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Farida</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>1 bungkus agar-agar</li>
+                <li>800 cc air</li>
+                <li>1 liter susu cair</li>
+                <li>8 sdm tepung custard</li>
+                <li>20 sdm gula pasir (sesuai selera)</li>
+                <li>4 butir kuning telur, kocok lepas</li>
+                <li>1/2 sdt garam</li>
+                <li>1 sdt essence vanila</li>
+                <li>Buah-buahan (Raspberry, anggur, strawberry, raspberry, atau sesuai selera)</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Campur semua bahan ke dalam panci.</li>
+                <li>Aduk rata semua bahan.</li>
+                <li>Panaskan di atas kompor dengan api sedang sambil terus diaduk hingga mendidih dan mengental.</li>
+                <li>Tuang ke dalam cetakan dan biarkan beku.</li>
+                <li>Tambahkan topping buah di atasnya.</li>
+                <li>Pudding custard siap dihidangkan.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 150 Kcal</li>
+            <li>Protein: ~ 5g</li>
+            <li>Lemak: ~ 8g</li>
+            <li>Karbohidrat: ~ 15g</li>
+            <li>Gula: ~ 10g</li>
+            <li>Serat: ~ 1g</li>
+            <li>Kalsium: ~ 150mg</li>
+            <li>Fosfor: ~ 70mg</li>
+        </ul>
+
+        <!-- resep 3 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Puding Cokelat Regal</h2>
+            <img src="/img/desert/puding cokelat.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Puding Cokelat Regal adalah hidangan penutup lezat yang menggabungkan kelezatan puding cokelat dengan
+                kelezatan biskuit regal.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(5)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>150 gram puding cokelat bubuk</li>
+                <li>2 ½ gelas air</li>
+                <li>1 bungkus biskuit regal</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan Membuat Vla:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>7 sdm kental manis</li>
+                <li>1 gelas susu</li>
+                <li>1 kuning telur</li>
+                <li>Keju parut, sesuaikan dengan selera</li>
+                <li>Larutan tepung maizena</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Rebus puding cokelat dengan air dan tunggu sampai mendidih.</li>
+                <li>Sambil menunggu puding mendidih, siapkan wadah dan masukkan biskuit regal ke dalamnya. Susun hingga
+                    rata.</li>
+                <li>Tuangkan puding ke wadah yang sudah diberikan biskuit regal.</li>
+                <li>Diamkan sebentar di dalam kulkas.</li>
+                <li>Sementara itu, Anda dapat membuat vla dengan memasukkan parutan keju ke dalam wadah.</li>
+                <li>Campurkan dengan kental manis, kuning telur, dan air untuk melarutkan.</li>
+                <li>Tuangkan segelas susu ke dalam adonan. Lalu, masak sampai vla panas.</li>
+                <li>Kemudian, tuangkan larutan maizena ke dalam panci. Aduk sampai merata hingga semua tercampur merata.
+                </li>
+                <li>Setelah vla jadi, Anda bisa menuangkan vla ke atas puding regal tadi.</li>
+                <li>Untuk menambah cita rasa, Anda bisa menyusun biskuit regal di atas puding yang sudah dituang vla.
+                </li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 250 Kcal</li>
+            <li>Protein: ~ 5g</li>
+            <li>Lemak: ~ 10g</li>
+            <li>Karbohidrat: ~ 35g</li>
+            <li>Gula: ~ 20g</li>
+            <li>Serat: ~ 2g</li>
+            <li>Kalsium: ~ 100mg</li>
+            <li>Fosfor: ~ 50mg</li>
+        </ul>
+
+        <!-- resep 4 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Salad Buah</h2>
+            <img src="/img/desert/salad buah.jpg" alt="Cheesy Egg Sandwich" class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Salad Buah adalah hidangan segar yang menggabungkan berbagai macam buah-buahan dengan saus yogurt lezat.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <p class="font-semibold mr-1">5.0</p>
+                <p>(3)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Atika</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>200 gram apel, potong dadu</li>
+                <li>200 gram melon, potong dadu</li>
+                <li>¼ semangka, potong dadu</li>
+                <li>200 gram mangga, potong dadu</li>
+                <li>½ buah pepaya, potong dadu</li>
+                <li>200 gram anggur, belah jadi dua dan buang bijinya</li>
+                <li>20 gram strawberry, belah jadi empat</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan Membuat Topping:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>1 bungkus plain yoghurt</li>
+                <li>Mayones putih, secukupnya</li>
+                <li>Perasan jeruk nipis, sesuaikan dengan selera</li>
+                <li>Kental manis, sesuaikan dengan selera</li>
+                <li>Keju parut, secukupnya</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Siapkan semua buah-buahan yang sudah dipotong dadu, kemudian masukkan ke dalam kulkas agar lebih
+                    segar dan dingin. Lalu, campurkan semua buah tersebut dalam satu wadah.</li>
+                <li>Campurkan dengan mayonnaise, kental manis, dan air perasan jeruk nipis. Lalu, tuang saus salad buah
+                    di atasnya.</li>
+                <li>Taburkan parutan keju sesuai dengan selera.</li>
+                <li>Salad buah siap disajikan untuk keluarga.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 150 Kcal</li>
+            <li>Protein: ~ 2g</li>
+            <li>Lemak: ~ 5g</li>
+            <li>Karbohidrat: ~ 25g</li>
+            <li>Gula: ~ 15g</li>
+            <li>Serat: ~ 5g</li>
+            <li>Vitamin C: ~ 30mg</li>
+            <li>Kalsium: ~ 50mg</li>
+        </ul>
+
+        <!-- resep 5 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Sereal Yoghurt</h2>
+            <img src="/img/desert/sereal yoghurt.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Sereal Yogurt adalah hidangan ringan yang lezat dan sehat, terdiri dari cornflakes, yogurt, selai
+                stroberi, buah stroberi, dan granola.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>150 gr sereal cornflakes</li>
+                <li>500 gr yogurt rasa buah, sesuai selera</li>
+                <li>200 ml selai stroberi</li>
+                <li>100 gr buah stroberi, potong sesuai selera</li>
+                <li>100 gr granola</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan Pelengkap:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>Ice cream yogurt</li>
+                <li>Daun mint</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Siapkan jar atau gelas.</li>
+                <li>Masukkan cornflakes ke dalam gelas.</li>
+                <li>Tuangkan yogurt rasa buah, potongan buah stroberi, selai stroberi, dan granola.</li>
+                <li>Masukkan dessert ke dalam lemari es minimal selama 2 jam untuk hasil yang maksimal.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 300 Kcal</li>
+            <li>Protein: ~ 10g</li>
+            <li>Lemak: ~ 5g</li>
+            <li>Karbohidrat: ~ 50g</li>
+            <li>Gula: ~ 20g</li>
+            <li>Serat: ~ 8g</li>
+            <li>Kalsium: ~ 200mg</li>
+            <li>Vitamin C: ~ 30mg</li>
+        </ul>
+
+        <!-- resep 6 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Pancake Pisang</h2>
+            <img src="/img/desert/pancake pisang.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Pancake Pisang adalah hidangan lezat yang menggabungkan pancake lembut dengan potongan pisang dan kental
+                manis cokelat.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <p class="font-semibold mr-1">5.0</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Ida</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>100 gr terigu</li>
+                <li>3 sdm gula pasir</li>
+                <li>1 sdt baking powder</li>
+                <li>1 1/2 sdt soda kue</li>
+                <li>2 butir telur ayam</li>
+                <li>50 gr mentega, lelehkan</li>
+                <li>250 ml susu cair</li>
+                <li>2 buah pisang ambon, kupas, potong-potong tipis</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Pelengkap:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>Kental manis cokelat</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Campur terigu, gula pasir, baking powder, dan soda kue dalam mangkuk, aduk rata.</li>
+                <li>Buat lubang di tengahnya, masukkan telur, kocok rata.</li>
+                <li>Masukkan mentega dan susu, aduk hingga adonan lembut.</li>
+                <li>Panaskan wajan dadar, olesi mentega. Tuang satu sendok sayur adonan ke dalam wajan, masak hingga
+                    berlubang-lubang halus.</li>
+                <li>Susun pisang di atasnya, masak hingga matang. Angkat. Beri kental manis cokelat.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 250 Kcal</li>
+            <li>Protein: ~ 6g</li>
+            <li>Lemak: ~ 8g</li>
+            <li>Karbohidrat: ~ 40g</li>
+            <li>Gula: ~ 15g</li>
+            <li>Serat: ~ 2g</li>
+            <li>Kalsium: ~ 100mg</li>
+            <li>Vitamin C: ~ 5mg</li>
+        </ul>
+
+        <!-- resep 7 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Pinky smooties</h2>
+            <img src="/img/desert/pinky smooties.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Pinky Smoothies adalah minuman segar yang lezat dengan kombinasi pisang, strawberry, susu, kacang
+                almond, dan es batu.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Atika</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>2 buah pisang cavendish ukuran besar</li>
+                <li>2 cup strawberry</li>
+                <li>300 cc susu cair</li>
+                <li>6 sdm kacang almond cincang, sangrai sebentar</li>
+                <li>2 cup es batu</li>
+                <li>Sedikit garam</li>
+                <li>Gula pasir secukupnya (boleh pakai boleh tidak)</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Masukkan semua bahan jadi satu ke dalam blender.</li>
+                <li>Blender dengan kecepatan tinggi hingga halus menjadi smoothies.</li>
+                <li>Tuang ke dalam gelas saji, siap disajikan.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 200 Kcal</li>
+            <li>Protein: ~ 5g</li>
+            <li>Lemak: ~ 8g</li>
+            <li>Karbohidrat: ~ 30g</li>
+            <li>Gula: ~ 15g</li>
+            <li>Serat: ~ 5g</li>
+            <li>Kalsium: ~ 150mg</li>
+            <li>Vitamin C: ~ 80mg</li>
+        </ul>
+
+        <!-- resep 8 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Waffles</h2>
+            <img src="/img/desert/waffle.jpg" alt="Cheesy Egg Sandwich" class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Waffle adalah kudapan lezat yang bisa dinikmati dengan berbagai topping sesuai selera.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Farida</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>1 1/2 cup terigu</li>
+                <li>2 sdm gula pasir</li>
+                <li>1 sdm baking powder</li>
+                <li>1/2 sdt garam</li>
+                <li>1 1/4 cup buttermilk</li>
+                <li>1/2 cup minyak kelapa</li>
+                <li>2 butir telur</li>
+                <li>1 cup choco chips</li>
+                <li>Topping: sesuai selera</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Pisahkan kuning dan putih telur.</li>
+                <li>Campur semua bahan kering terigu, gula, garam, baking powder. Aduk rata dan sisihkan.</li>
+                <li>Masukkan buttermilk ke dalam adonan kering, aduk sampai rata. Sisihkan.</li>
+                <li>Masukkan kuning telur ke adonan, aduk rata.</li>
+                <li>Kemudian masukkan minyak ke adonan, aduk rata.</li>
+                <li>Di wadah terpisah, kocok putih telur sampai berbusa, putih dan kaku. Masukkan ke adonan, aduk
+                    perlahan hingga rata.</li>
+                <li>Masukkan choco chips, aduk rata perlahan.</li>
+                <li>Kemudian tuang adonan dalam cetakan waffle dengan api kecil. Balik sisi yang satunya.</li>
+                <li>Angkat dari cetakan dan taburi dengan gula halus dan madu.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 300 Kcal</li>
+            <li>Protein: ~ 8g</li>
+            <li>Lemak: ~ 15g</li>
+            <li>Karbohidrat: ~ 35g</li>
+            <li>Gula: ~ 10g</li>
+            <li>Serat: ~ 2g</li>
+            <li>Kalsium: ~ 200mg</li>
+            <li>Zat Besi: ~ 2mg</li>
+        </ul>
+
+        <!-- resep 9 -->
+        <div class="menu-item mb-8 max-w-xl pt-10 ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Mango Sticky Rice</h2>
+            <img src="/img/desert/manggo sticky rice.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Mango Sticky Rice adalah hidangan penutup Thailand yang lezat, disajikan dengan ketan, saus santan, dan
+                potongan mangga.
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan Ketan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>300 gr beras ketan (direndam selama dua jam)</li>
+                <li>250 ml santan kental</li>
+                <li>1/2 sdt garam</li>
+                <li>2 lembar daun pandan</li>>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat Ketan:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Cuci bersih ketan setelah direndam semalaman.</li>
+                <li>Kukus beras ketan dengan daun pandan, kukus selama 25 menit.</li>
+                <li>Angkat beras ketan, sisihkan.</li>
+                <li>Rebus santan kental dengan daun pandan & garam, aduk perlahan, angkat santan.</li>
+                <li>Siram ketan yang sudah dikukus dengan santan yang masih panas, aduk rata, diamkan 5 menit agar
+                    santan meresap.</li>
+                <li>Kukus beras ketan sampai matang selama 25 menit, sisihkan.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2">Bahan Saus Santan:</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>250 ml santan segar</li>
+            <li>2 sdm gula pasir (sesuai selera)</li>
+            <li>2 sdm maizena (larutkan dengan 3 sdm air)</li>
+            <li>1/2 sdt garam</li>
+            <li>1 lembar daun pandan</li>
+        </ul>
+
+        <h3 class="text-lg font-semibold mb-2">Cara membuat saus santan:</h3>
+        <ol class="list-decimal pl-6 mb-4">
+            <li>Dalam panci masukkan santan, gula pasir, garam, dan daun pandan, aduk rata, lalu masak santan dan aduk
+                rata agar tidak pecah.</li>
+            <li>Tambahkan larutan maizena, lalu aduk kembali. Setelah santan mengental, matikan dan sisihkan sampai
+                dingin.</li>
+        </ol>
+
+        <h3 class="text-lg font-semibold mb-2">Bahan Topping:</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Mangga arumanis</li>
+            <li>Wijen</li>
+        </ul>
+
+        <h3 class="text-lg font-semibold mb-2">Cara Penyelesaian:</h3>
+        <ol class="list-decimal pl-6 mb-4">
+            <li>Siapkan piring saji, lalu tata ketan dan susun mangga.</li>
+            <li>Tabur wijen, lalu siram ketan dengan saus santan dan siap disajikan.</li>
+        </ol>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Calories: ~ 300 Kcal</li>
+            <li>Protein: ~ 3g</li>
+            <li>Fat: ~ 10g</li>
+            <li>Carbohydrates: ~ 50g</li>
+            <li>Fiber: ~ 2g</li>
+            <li>Vitamin C: ~ 30mg</li>
+            <li>Calcium: ~ 20mg</li>
+            <li>Iron: ~ 1mg</li>
+        </ul>
+
+        <!-- resep 10 -->
+        <div class="menu-item mb-8 max-w-xl pt-10  ">
+            <h2 class="text-xl font-bold mb-4 lg:text-3xl lg:mb-5 text-main">Triple Chocolate</h2>
+            <img src="/img/desert/Triple chocolate dessert.jpg" alt="Cheesy Egg Sandwich"
+                class="mb-4 rounded-lg bg-cover bg-center">
+            <p class="text-gray-700 mb-4">
+                Nikmati cita rasa kaya dan lezat dari triple chocolate dengan dessert box yang menggugah selera.
+
+            </p>
+
+            <div class="flex items-center mb-1">
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star text-main mr-1"></i>
+                <i class="fa-solid fa-star-half-stroke text-main mr-1"></i>
+                <p class="font-semibold mr-1">4.7</p>
+                <p>(2)</p>
+            </div>
+
+            <p class="text-sm mb-4">By <span class="underline text-slate-950 font-bold ">Dewi</span></p>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>3 butir telur</li>
+                <li>110 gr gula pasir</li>
+                <li>1/4 sdt cream of tartar (SP)</li>
+                <li>1/4 sdt ekstrak vanila</li>
+                <li>Sejumput garam</li>
+                <li>65 gr tepung terigu protein sedang</li>
+                <li>1/4 sdt baking powder</li>
+                <li>25 gr bubuk kakao</li>
+                <li>50 gr dark cooking chocolate (DCC)</li>
+                <li>85 ml minyak sayur</li>
+                <!-- Tambahkan bahan-bahan lainnya -->
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan Whipped Cream:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>150 gr bubuk whipped cream</li>
+                <li>300 ml air dingin</li>
+                <li>100 gr DCC dilelehkan</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Bahan Ganache:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li>125 ml susu cair</li>
+                <li>200 gr DCC</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mb-2">Cara membuat:</h3>
+            <ol class="list-decimal pl-6 mb-4">
+                <li>Panaskan kukusan. Lapisi tutup kukusan dengan kain.</li>
+                <li>Lelehkan DCC, campur dengan minyak sayur, aduk rata, sisihkan.</li>
+                <li>Kocok telur, gula, garam, vanila, dan cream of tartar hingga mengembang.</li>
+                <li>Masukkan tepung terigu, baking powder, dan bubuk kakao sambil diayak. Aduk rata.</li>
+                <li>Masukkan campuran DCC leleh dan minyak sayur ke dalam adonan, aduk rata.</li>
+                <li>Tuang adonan dalam loyang yang sudah dioles minyak sayur atau mentega. Kukus hingga matang dengan
+                    api kompor sedang. Setelah matang, angkat dan biarkan kue dingin.</li>
+                <li>Mixer bubuk whipped cream dan air dingin hingga teksturnya menjadi krim, lalu tambahkan DCC yang
+                    sudah dilelehkan, mixer lagi sampai rata.</li>
+                <li>Untuk Ganache: Masak susu cair sampai hangat, masukkan DCC yang sudah dipotong-potong, aduk hingga
+                    tercampur rata dan mengkilap.</li>
+                <li>Penyusunan: Potong-potong kue sesuai ukuran kotak yang diinginkan. Letakkan kue dalam kotak, beri
+                    whipped cream cokelat di atasnya, ratakan krim. Kemudian siram dengan ganache cokelat di atasnya.
+                </li>
+                <li>Tambahkan hiasan sesuai selera, dan dessert box siap disajikan.</li>
+                <!-- Tambahkan langkah-langkah lainnya -->
+            </ol>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2 text-main">Fakta Gizi (Per Porsi):</h3>
+        <ul class="list-disc pl-6 mb-4">
+            <li>Kalori: ~ 350 Kcal</li>
+            <li>Protein: ~ 5g</li>
+            <li>Lemak: ~ 20g</li>
+            <li>Karbohidrat: ~ 40g</li>
+            <li>Serat: ~ 2g</li>
+            <li>Kalsium: ~ 40mg</li>
+            <li>Zat Besi: ~ 3mg</li>
+        </ul>
+
+
+    </div>
+
+    <!-- Tambahkan div dan struktur serupa untuk resep sarapan lainnya -->
+
+    <footer class="relative bg-blueGray-200 pt-8 pb-6 bg-secondary text-white ">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap text-left lg:text-left">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl fonat-semibold text-white-500 font-bold uppercase">Makan<span
+                            class="">Bijak</span></h4>
+                    <h5 class="text-lg mt-0 mb-2 text-white-600" id="tentang">
+                        Misi kami adalah membantu masyarakat menuju kehidupan yang lebih sehat dan bugar,
+                        Menghadirkan informasi nutrisi yang akurat dan mudah dimengerti untuk membantu pengguna membuat
+                        keputusan makanan yang informasional dan bijak.
+                    </h5>
+                    <div class="mt-6 lg:mb-0 mb-6">
+                        <button
+                            class="bg-Dark-100 text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+
+                        <button
+                            class="bg-Dark-100 text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-facebook-square"></i>
+                        </button>
+
+                        <button
+                            class="bg-Dark-100 text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fab fa-github"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-white-500 text-sm font-semibold mb-2">Kategori</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/desert.html">Desert</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/diets.html">Diets</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/minuman.html">Minuman Sehat</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-white-800  block pb-2 text-sm"
+                                        href="/menu/sarapan.html">Sarapan</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full lg:w-4/12 px-4">
+                            <span class="block uppercase text-white-500 text-sm font-semibold mb-2">Lainya</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/privacy?ref=njs-profile">Contact</a>
+                                </li>
+                                <li>
+                                    <a class="text-white-600 hover:text-blueGray-800  block pb-2 text-sm"
+                                        href="https://creative-tim.com/contact-us?ref=njs-profile">Social media</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-blueGray-300">
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-white-500 py-1">
+                        Copyright © <span id="get-current-year">2023</span><a
+                            href="https://www.creative-tim.com/product/notus-js"
+                            class="text-white-500 hover:text-gray-800" target="_blank"> MAKANBIJAK
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+<script>
+
+    let availableKeywords = [
+        'Brokoli ayam lada hitam',
+        'Cream soup',
+        'Chicken steak',
+        'Salad sayur telur',
+        'Sayur bayam kecambah',
+        'Lemon squash',
+        'Teh hijau mint',
+        'Pancake mangga',
+        'Pudding custard',
+        'Pudding cokelat regal',
+        'Salad buah',
+        'Sereal yoghurt desert',
+        'Pancake pisang',
+        'Pinky smoothies',
+        'Waffles',
+        'Mango sticky rice',
+        'Triple chocolate dessert',
+        'Iced lemonade',
+        'Infused water',
+        'Es semangka susu',
+        'Es kuwut',
+        'Es kopi float',
+        'Es timun jeruk nipis',
+        'Oreo smoothies',
+        'Mango lessi',
+        'Strawberry milk',
+        'Teh rosela jahe',
+        'Avocado toast dengan telur dan sosis',
+        'Cheesy egg sandwich',
+        'Nasi goreng kacang polong',
+        'Sop bihun',
+        'Bubur sumsum',
+        'Roti panggang isi',
+        'Nasi tim daging',
+        'Telur dadar keju saus tomat',
+        'tumis sosis sayuran',
+        'Terong teriyaki',
+        'Terong bakar tomat',
+        'Terong panggang',
+        'Tumis tahu jamur',
+        'Pepes tahu keju',
+        'Mapo tofu',
+
+
+    ];
+
+    const keywordToUrlMap = {
+        'Brokoli ayam lada hitam': '/saran menu/brokoli_ayam.html',  // Ganti dengan nama file atau URL yang sesuai
+        'Cream soup': '/menu/sarapan.html',
+        'Chicken steak': '/saran menu/chicken_steak.html',
+        'Salad sayur telur': '/menu/sarapan.html',
+        'Lemon squash': '/menu/minuman.html',
+        'Teh hijau mint': '/menu/minuman.html',
+        'Sayur bayam kecambah': '/menu/diets.html',
+        'Pancake mangga': '/menu/desert.html',
+        'Pudding custard': '/saran menu/puding_custard.html',
+        'Pudding cokelat regal': '/menu/desert.html',
+        'Salad buah': '/saran menu/salad_buah.html',
+        'Sereal yoghurt desert': '/menu/desert.html',
+        'Pinky smoothies': '/menu/desert.html',
+        'Waffles': '/menu/desert.html',
+        'Mango sticky rice': '/menu/desert.html',
+        'Triple chocolate dessert': '/menu/desert.html',
+        'Iced lemonade': '/menu/minuman.html',
+        'Infused water': '/menu/minuman.html',
+        'Es semangka susu': '/menu/minuman.html',
+        'Es kuwut': '/menu/minuman.html',
+        'Es kopi float': '/menu/minuman.html',
+        'Es timun jeruk nipis': '/saran menu/es_timun_nipis.html',
+        'Oreo smoothies': '/menu/minuman.html',
+        'Mango lessi': '/saran menu/mango_lessi.html',
+        'Strawberry milk': '/menu/minuman.html',
+        'Teh rosela jahe': '/menu/minuman.html',
+        'Avocado toast dengan telur dan sosis': '/saran menu/egg_avocado.html',
+        'Cheesy egg sandwich': '/saran menu/cheesy_egg_sandwich.html',
+        'Nasi goreng kacang polong': '/menu/sarapan.html',
+        'Sop bihun': '/menu/sarapan.html',
+        'Bubur sumsum': '/menu/sarapan.html',
+        'Roti panggang isi': '/menu/sarapan.html',
+        'Nasi tim daging': '/menu/sarapan.html',
+        'Telur dadar keju saus tomat': '/saran menu/telur_dadar_keju.html',
+        'tumis sosis sayuran': '/menu/sarapan.html',
+        'Terong teriyaki': '/saran menu/terong_teriyaki.html',
+        'Terong bakar tomat': '/saran menu/terong_bakar_tomat.html',
+        'Terong panggang': '/saran menu/terong_panggang.html',
+        'Terong bakar tomat': '/saran menu/terong_bakar_tomat.html',
+        'Tumis tahu jamur': '/saran menu/tumis_tahu_jamur.html',
+        'Pepes tahu keju': '/saran menu/pepes_tahu_keju.html',
+        'Mapo tofu': '/saran menu/mapo_tofu.html',
+
+        // Ganti dengan nama file atau URL yang sesuai
+        // Tambahkan pemetaan lain sesuai kebutuhan
+    };
+
+    const resultBox = document.querySelector(".result-box");
+    const inputBox = document.querySelector("#input-box");
+
+    inputBox.oninput = function () {
+        let result = [];
+        let input = inputBox.value;
+
+        if (input.length) {
+            result = availableKeywords.filter((keyword) => {
+                return keyword.toLowerCase().includes(input.toLowerCase());
+            });
+        }
+
+        display(result);
+
+        if (!result.length) {
+            resultBox.innerHTML = '';
+        }
+    }
+
+    function display(result) {
+        const content = result.map((list) =>
+            `<li onclick="selectInput(this)" class="cursor-pointer py-2 px-4 rounded hover:bg-aqua">${list}</li>`
+        );
+
+        resultBox.innerHTML = "<ul>" + content.join('') + "</ul>";
+    }
+
+    function selectInput(list) {
+        const selectedKeyword = list.innerHTML;
+
+        // Periksa apakah kata kunci ada dalam pemetaan
+        if (keywordToUrlMap[selectedKeyword]) {
+            // Jika ada, arahkan pengguna ke URL yang sesuai
+            window.location.href = keywordToUrlMap[selectedKeyword];
+        } else {
+            // Jika tidak, arahkan ke halaman pencarian atau tindakan lainnya
+            window.location.href = "search.html?q=" + encodeURIComponent(selectedKeyword);
+        }
+    }
+
+
+    window.onscroll = function () {
+        const header = document.querySelector('header');
+        const fixedNav = header.offsetTop;
+
+        if (window.pageYOffset > fixedNav) {
+            header.classList.add('navbar-fixed')
+        } else {
+            header.classList.remove()
+        }
+    }
+
+    const button = document.querySelector('#button');
+    const navMenu = document.querySelector('#nav-menu');
+
+    button.addEventListener('click', function () {
+        button.classList.toggle('btn_line');
+        navMenu.classList.toggle('hidden');
+    })
+
+</script>
+
+</html>
